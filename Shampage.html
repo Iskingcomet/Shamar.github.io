@@ -1,26 +1,42 @@
 <!Doctype html>
 <html>
     <head>
-<style>
-    .myDiv{
-    border: 5 px blueviolet;
-    background-color:rgb(151, 21, 190);
-    text-align: center;
-    }
-</style>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="mycss_tablet.css" media="max-width:700px">
+        <link rel="stylesheet" href="mycss_web.css">
+        <style>
+
+
+a:link{
+    color:black;
+}
+
+a:hover {
+  color:orange;
+}
+
+a:active {
+  color: rgb(2, 177, 168);
+} 
+
+
+        </style>
 </head>
 <body>
-    <div class= "myDiv">
-    <h1> Welcome To My Website</h1>
+    <div>
+        <div id="box1" class="custom_size custom_border custom_margin custom_font">
+        Welcome to my page
 </div>
-
+    
 <hr>
 <form>
     <div>
         <input type="text" placeholder =" Type Your Name" name ="username_field">
     </div>
     
-<p><a href="#Basic Information">
+
+
+<p ><a href="#Basic Information">
     Jump to Basic Information
   </a></p>
   <p><a href="#Education">
@@ -44,13 +60,18 @@
   <p><a href="#My Projects in this course">
     Jump to My Projects in this course
   </a></p>
+ 
+
+
   <hr>
 
 
 <h2 id="Basic Information"></h2>
 
-<h1>Basic Information</h1>
-
+<div>
+<div id="box1" class="custom_size custom_border custom_font">
+    Basic Information
+</div>
 
 </form>
 <p> My name is Shamar Roberts</p>
@@ -60,15 +81,22 @@
 
 
 <h2 id="Education"></h2>
+<div>
+    <div id="box1" class="custom_size custom_border custom_font">
+ Education 
+ </div>
 
-<h1> Education </h1>
 <P> For my current education I am currently enrolled in Undergrad but I plan to graduate in the Summer of 2022.
     I am on track to graduate Magna Cum Laude.
 </P>
 <hr>
+
 <h2 id="Work Experience"></h2>
-<h1>Work Experience</h1>
-<ul>
+<div>
+    <div id="box1" class="custom_size custom_border custom_font">
+Work Experience
+</div>
+
 <li>Brooklyn Campaign Against Hunger</li>
 <Li>Banana Republic</Li>
 <li>St John's University Campus Recreation</li>
@@ -76,7 +104,11 @@
 </ul>
 <hr>
 <h2 id="Programming Skill"></h2>
-<h1>Programming Skill</h1>
+<div>
+    <div id="box1" class="custom_size custom_border custom_margin custom_font">
+Programming Skill
+</div>
+<div class ="pro_table">
 <table>
     <tr>
 <th>Progamming Language</th>
@@ -100,17 +132,26 @@
     <td>Intermediate</td>
  </tr>
 </table>
+</div>
 <hr>
-<h2 id="General Interest"></h2>
-<h1> General Interest</h1>
-<p> I think my general Interest are pretty basic compared to others. Some of the things that I love to do are play video games and instruments, cook different types of food, and to buy sneakers.</p>
 
-<img src= "https://preview.redd.it/tq7e1klto3061.jpg?auto=webp&s=3efad67ce2e88ee829ecd34e8fbaadce7d3515c6" width = 50%>
+<h2 id="General Interest"></h2>
+<div>
+    <div id="box1" class="custom_size custom_border custom_font">
+ General Interest
+</div>
+<p class ="screen_only"> I think my general Interest are pretty basic compared to others. Some of the things that I love to do are play video games and instruments, cook different types of food, and to buy sneakers.</p>
+
+<img class="screen_only" src= "https://preview.redd.it/tq7e1klto3061.jpg?auto=webp&s=3efad67ce2e88ee829ecd34e8fbaadce7d3515c6" width = 50% id="imgtest">
 <img src= "https://www.stjohns.edu/sites/default/files/styles/640w/public/2019-10/pep_band_sousaphone_player_960x640.jpg?itok=_Kf7FrOJ" width = 50%>
 
 <hr>
 <h2 id="Favorite Song, Movie, And TV Show"></h2>
-<H1> Favorite Song, Movie, And TV Show</H1>
+<div>
+    <div id="box1" class="custom_size custom_border custom_margin custom_font">
+ Favorite Song, Movie, And TV Show
+ </div>
+
 <div class= "iframe-container">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/Ys1Gv4DMAbE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
@@ -122,7 +163,10 @@
 </div>
 <hr>
 <h2 id="Favorite Websites"></h2>
-<h1>Favorite Websites</h1>
+<div>
+    <div id="box1" class="custom_size custom_border custom_margin custom_font">
+Favorite Websites
+</div>
 
 <li> <a href="https://www.nike.com/launch" target= "_blank"> Click Here to go to Nike </a></li>
 <p>Through the Nike website I check for when new sneakers are being released in hopes to get a pair and resell them for extra money</p>
@@ -133,8 +177,10 @@
 
 <hr>
 <h2 id="My Projects in this course"></h2>
-<h1>My Projects in this course</h1>
-
+<div>
+    <div id="box1" class="custom_size custom_border custom_margin custom_font">
+My Projects in this course
+    </div>
 <li> <a href="https://rkileaders.teachable.com/courses/web-application-development/lectures/13897368" target= "_blank"> HTML, CSS, Bootstrap </a></li>
 
 
