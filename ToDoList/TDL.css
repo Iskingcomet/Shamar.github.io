@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    background-color: salmon;
+    }
+    img{
+        padding-top:7px;
+        padding-bottom: 10px;
+    }
+    li{
+    padding: 2px;
+    border-style: double;
+    border-color:  2px black;
+    background-color: white;
+    }
+    
+    .custom_border{
+        border-width: 5px;
+        border-style: double;
+    }
+
+    #title_color{
+        background-color: white;
+    }
