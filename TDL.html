@@ -1,0 +1,43 @@
+<!dOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+<link rel = "stylesheet" href = "TDL.css">
+<script src = "TDL.js"> </script>
+<title>To-Do-List</title>
+</head>
+
+<body>
+    <div>
+<h1 div id="title_color" class="custom_border">
+    To do List
+</div>
+<div class = "container">
+<img src = "https://media1.giphy.com/media/l1AsBL4S36yDJain6/200.gif"/>
+
+<form id = "new-task">Enter Task:
+<input class = "task-title" id = "task-title" autocomplete="off" autofocus placeholder="New Task" type = "text">
+
+<label for = "task-priority">Task Priority</label>
+<select name = "task-priority" id = "task-priority">
+<option value="Low">Low</option>
+<option value="Med">Med</option>
+<option value="High">High</option>
+</select>
+
+<label for = "task-status">Task Status</label>
+<input class = "task-status" name = "task-status" type = "radio" value = "pending"> Pending
+<input class = "task-status" name = "task-status" type = "radio" value = "completed"> Completed
+
+
+<input id = "submit" type = "submit">
+</form>
+<ul id = "task_list">
+
+</ul>
+</div>
+</body>
+</html>
+
