@@ -1,0 +1,171 @@
+{
+    "Quiz": [
+    {
+    "id":1,
+    "questionType": "multiple_Choice",
+    "questionText": "What do you call a portable computer?",
+    "correctAnswer": "Laptop",
+    "options": ["Laptop","Bookshop","RAM","CPU"],
+    "feedback": ["Correct","Incorrect"]
+    },
+    {
+    "id":2,
+    "questionType": "multiple_Choice",
+    "QuestionText": "A person who uses his expertise to gain access of other’s computer illegally is known as …",
+    "correctAnswer": "Hacker",
+    "options": ["Programmer","Hacker","Spammer","Hobbyist"],
+    "feedback": ["Correct","Incorrect"]
+    },
+    {
+    "id":3,
+    "questionType": "multiple_Choice",
+    "questionText": "MS-Office is a/an ……",
+    "options": ["Application Software","Operating Software","Programming Software","A & B Both"],
+    "correctAnswer": "Application Software",
+    "feedback": ["Correct","Incorrect"]
+    },
+    {
+    "id":4,
+    "questionType": "text_input",
+    "questionText": "Which of the following usually observe each activity on the internet of the victim, gather all information in the background, and send it to someone else?",
+    "correctAnswer": "Spyware",
+    "answerFieldId": "answer_to_question",
+    "feedback": ["Correct","Incorrect"]
+    },
+    {
+    "id":5,
+    "questionType": "multiple_Choice",
+    "questionText": "It can be a software program or a hardware device that filters all data packets coming through the internet, a network, etc. it is known as the_______:",
+    "options": ["Antivirus","Firewall","Cookies","Malware"],
+    "correctAnswer": "Firewall",
+    "feedback": ["Correct","Incorrect"]
+    },
+    {
+    "id":6,
+    "questionType": "multiple_Choice",
+    "questionText": "In pseudocode the IF-then statement is an example of a",
+    "options": ["Sequence Structure", "Decision Structure","Pathway Structure","Class Structure"],
+    "correctAnswer" : "Decision Structure",
+    "feedback": ["Correct","Incorrect"]
+    },
+    {
+    "id":7,
+    "questionType": "text_input",
+    "questionText": "An ___ expression has a value of either true or false.",
+    "answerFieldId": "answer_to_question",
+    "correctAnswer": "Boolean",
+    "feedback": ["Correct","Incorrect"]
+    },
+    {
+    "id":8,
+    "questionType": "text_input",
+    "questionText": "AND,OR and NOT are ___ operators",
+    "answerFieldId": "answer_to_question",
+    "correctAnswer": "Logical",
+    "feedback": ["Correct","Incorrect"]
+    },
+    {
+    "id":9,
+    "questionType": "multiple_Choice",
+    "questionText": "The part of a computer that runs programs is called",
+    "options": ["RAM","Secondary","main memory","The CPU"],
+    "correctAnswer": "The CPU ",
+    "feedback": ["Correct","Incorrect"]
+    },
+    {
+    "id":10,
+    "questionType": "multiple_Choice",
+    "questionText": "A component that collects data from people or other devices and sends it to the computer is called",
+    "options": ["an output device","an input device","a secondary storage device","main memory"],
+    "correctAnswer": "an input device",
+    "feedback": ["Correct","Incorrect"]
+    },
+    {
+    "id":11,
+    "questionType" : "true_false",
+    "questionText": "C++ is both procedural and object oriented programming language",
+    "options" : ["true", "false"],
+    "correctAnswer": "true",
+    "feedback": ["Correct","Incorrect"]
+    },
+    {
+    "id":12,
+    "questionType": "multiple_Choice",
+    "questionText": "Which of the following is not a type of Constructor in C++?",
+    "Choice_1": ["Default constructor","Parameterized constructor", "Copy constructor","Friend constructor"],
+    "correctAnswer": "Friend constructor",
+    "feedback": ["Correct","Incorrect"]
+    },
+    {
+    "id":13,
+    "questionText": " The statements inside an if statement are contained by the same curly braces used to contain the statements in a function.",
+    "options": ["True","False"],
+    "correctAnswer": "True",
+    "feedback": ["Correct","Incorrect"]
+    },
+    {
+    "id":14,
+    "questionType": "multiple_Choice",
+    "questionText": "Which of these is not a valid function name",
+    "options": ["_eat_small_fish()","go slower()","Go_Faster()","stopNow()"],
+    "correctAnswer": "go slower()",
+    "feedback": ["Correct","Incorrect"]
+    },
+    {
+    "id":15,
+    "questionType" : "true_false",
+    "questionText": "Assignment operator is evaluated Left to Right.",
+    "options": ["True","False"],
+    "correctAnswer": "False",
+    "feedback": ["Correct","Incorrect"]                                                       
+    },
+    {
+    "id":16,
+    "questionType": "text_input",
+    "questionText": "CSS stand for",
+    "answerFieldId": "answer_to_question",
+    "correctAnswer": "Cascading Style Sheets",
+    "feedback": ["Correct","Incorrect"]
+    },
+    {
+    "id":17,
+    "questionType": "multiple_Choice",
+    "questionText": "Which one of the following is also referred to as malicious software?",
+    "options": ["Maliciousware","Badware ","Ilegalware","Malware"],
+    "correctAnswer": "Malware",
+    "feedback": ["Correct","Incorrect"]
+    },
+    {
+    "id":18,
+    "questionType": "multiple_Choice",
+    "questionText": "In the computer networks, the encryption techniques are primarily used for improving the ",
+    "options": ["Security", "Performance","Reliability","Longevity"],
+    "correctAnswer": "Security",
+    "feedback": ["Correct","Incorrect"]
+    },
+    {
+    "id":19,
+    "questionType": "text_input",
+    "questionText": "What year was Python Found?",
+    "answerFieldId": "answer_to_question",
+    "correctAnswer": "1991",
+    "feedback": ["Correct","Incorrect"]
+    },
+    {
+    "id":20,
+    "questionType": "multiple_Choice",
+    "questionText": "Which of the following is the correct identifier?",
+    "options": ["$var_name", "VAR_123", "varname@",  "None of the above"],
+    "correctAnswer": "VAR_123",
+    "feedback": ["Correct","Incorrect"]
+    },
+    {
+    "id": 21,
+    "questionType": "multiple_Choice",
+    "questionText": "Which of the following features is required to be supported by the programming language to become a pure object-oriented programming language?",
+    "options": ["Encapsulation","Inheritance","Polymorphism", "All of the above"],                                                                              
+    "correctAnswer": "All of the above",
+    "feedback": ["Correct","Incorrect"]
+    }
+    ]
+    }
