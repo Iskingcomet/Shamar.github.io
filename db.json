@@ -1,5 +1,5 @@
 {
-    "Quiz": [
+    "quiz_one": [
     {
     "id":1,
     "questionType": "multiple_Choice",
