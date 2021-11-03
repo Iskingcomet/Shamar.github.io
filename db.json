@@ -144,15 +144,8 @@
     "feedback": ["Correct","Incorrect"]
     },
     {
-    "id":19,
-    "questionType": "text_input",
-    "questionText": "What year was Python Found?",
-    "answerFieldId": "answer_to_question",
-    "correctAnswer": "1991",
-    "feedback": ["Correct","Incorrect"]
-    },
     {
-    "id":20,
+    "id":29,
     "questionType": "multiple_Choice",
     "questionText": "Which of the following is the correct identifier?",
     "options": ["$var_name", "VAR_123", "varname@",  "None of the above"],
@@ -160,7 +153,7 @@
     "feedback": ["Correct","Incorrect"]
     },
     {
-    "id": 21,
+    "id": 20,
     "questionType": "multiple_Choice",
     "questionText": "Which of the following features is required to be supported by the programming language to become a pure object-oriented programming language?",
     "options": ["Encapsulation","Inheritance","Polymorphism", "All of the above"],                                                                              
