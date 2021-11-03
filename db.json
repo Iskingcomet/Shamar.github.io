@@ -144,7 +144,6 @@
     "feedback": ["Correct","Incorrect"]
     },
     {
-    {
     "id":19,
     "questionType": "multiple_Choice",
     "questionText": "Which of the following is the correct identifier?",
